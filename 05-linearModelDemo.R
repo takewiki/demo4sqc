@@ -14,6 +14,8 @@ plot(y~x);
 
 lm1 <- lm(y~x);
 
+lm1;
+
 # 提取模型的参数
 beta0_lm <-lm1$coefficients[1];
 beta1_lm <- lm1$coefficients[2];

@@ -4,11 +4,11 @@ f <- system.file('examples','images','sorghum.jpg',package = 'rinds');
 #read the image.
 sorghum <- readJpeg(f);
 #显示原始图
-#plot(sorghum);
+plot(sorghum);
 sorghum_eldge <- imgHomogeneityEdgeDetection(sorghum,bias = 64);
 
 #识别边缘并作图
-#plot(sorghum_eldge);
+plot(sorghum_eldge);
 #plot(sorghum);
 
 #数据进一步处理
@@ -40,7 +40,7 @@ imgbw <- bwlabel(imgKM);
 
 sorghum_EBImage <- biOps2Image(sorghum);
 
-img_out <- paintObjects(imgbw,sorghum_EBImage,col="green");
+img_out <- paintObjects(imgbw,sorghum_EBImage,col="red");
 display(img_out);
 
 #计算相关的信息; 

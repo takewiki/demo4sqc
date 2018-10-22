@@ -21,7 +21,7 @@ shinyUI(
         div(class="span6",
             h2("输入文本"),  
             aceEditor("code", mode="r", 
-                      value='我爱R语言，我爱文本挖掘',
+                      value='我爱R语12321321言，我爱文本1123213213213挖掘',
                       fontSize = 16,
                       theme ="vibrant_ink" ),
             actionButton("eval", "分词")

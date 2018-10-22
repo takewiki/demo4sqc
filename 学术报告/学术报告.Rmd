@@ -1,0 +1,96 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["zh-CN.css", "extra.css"]
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+background-image: url(./images/kd_Heading_169.png)
+background-position: 50% 50%
+class: top, left,
+company: 金蝶软件(中国)有限公司
+author: 胡立磊
+pptsize: 1220_686
+
+# 请在这里写标题
+
+--
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+## .red[{{company}}]
+
+
+--
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+### {{author}}       `r Sys.Date()`
+---
+name: KDW
+layout: false
+background-image: url(./images/kd_Title_169.png)
+background-position: 50% 50%
+class: left, top, 
+
+
+
+---
+layout: true
+
+
+--
+
+# .matureBlue[主题1]
+
+--
+
+# .golden[主题2]
+
+--
+
+# .lightRed[主题3]
+
+---
+name: KDB
+layout: true
+background-image: url(./images/kd_Body_169.png)
+background-position: 50% 50%
+class: left, top,
+---
+
+---
+---
+---
+---
+---
+
+---
+---
+---
+
+---
+
+---
+
+---
+
+---
+---
+layout: false
+name: KDTHX
+background-image: url(./images/kd_Thankyou_169.png)
+background-position: 20% 50%
+
+
+

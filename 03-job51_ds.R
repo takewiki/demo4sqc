@@ -34,3 +34,5 @@ job_issueDate  <- job_des %>% html_nodes(".t5") %>% html_text();
 res <- data.frame(job_title,job_salary,job_location,job_company,job_issueDate,job_url,stringsAsFactors = F);
 View(res);
 
+res;
+
